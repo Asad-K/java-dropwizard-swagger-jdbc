@@ -25,4 +25,4 @@ jobs:
         DB_USERNAME: ${{ secrets.DB_USERNAME }}
         DB_HOST: ${{ secrets.DB_HOST }}
         DB_NAME: ${{ secrets.DB_NAME }}
-      run: mvn clean integration-test
+      run: mvn clean compile
